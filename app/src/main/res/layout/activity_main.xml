@@ -38,4 +38,13 @@
         android:text="@string/txt_somar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirGorjeta"
+        android:text="@string/txt_gorjeta"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="230dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
